@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 70rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+      max-width: 200px; /* Original size of the logo */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    @media screen and (min-width: 768px) {
+      .logo {
+        max-width: 500px; /* New size for larger screens */
+      }
+    }
+
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      max-width: 1200px;
+      margin: 0 px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .col {
+      flex: 5;
+      margin-right: 20px;
+      box-sizing: border-box;
+    }
+    .col:last-child {
+      margin-right: 0;
+    }
+    .col img {
+      max-width: 100%;
+      height: auto;
+    }
+    .col h2 {
+      font-size: 24px;
+      margin: 0;
+      padding: 10px;
+    }
+    .col p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: px 0;
+      text-align: justify;
+    }
+    
+nav {
+  border-top: 8px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: bold;
+
+}
+
+article {
+  margin-left: 10%;
+  width: 60%;
+}
+
+header {
+    font-family: Basier, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+  font-size: 80px;
+  color: hotpink;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.byline {
+  font-family: Poppins;
+  color: hotpink;
+  font-weight: bold;
+}
+
+.tdpad {
+  padding: 15px;
+}
+
+article > p {
+  font-family:Poppins;
+  font-size: 20px;
+}
+
+.story_image {
+  width: 100%;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.caption {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px
+}
+
+h1 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+
+.source {
+  font-family: Poppins; 
+  font-size: 10px;
+}
+
+.otherimg {
+  max-width: 50rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
