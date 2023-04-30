@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 200rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+      max-width: 200px; /* Original size of the logo */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    @media screen and (min-width: 768px) {
+      .logo {
+        max-width: 500px; /* New size for larger screens */
+      }
+    }
+
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      max-width: 1200px;
+      margin: 0 px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .col {
+      flex: 5;
+      margin-right: 20px;
+      box-sizing: border-box;
+    }
+    .col:last-child {
+      margin-right: 0;
+    }
+    .col img {
+      max-width: 100%;
+      height: auto;
+    }
+    .col h2 {
+      font-size: 24px;
+      margin: 0;
+      padding: 10px;
+    }
+    .col p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: px 0;
+      text-align: justify;
+    }
+    
+nav {
+  border-top: 5px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  font-family: Archivo;
+  font-weight: bold;
+}
+
+
+article {
+  margin-left: 15%;
+  width: 70%;
+}
+
+h1 {
+  color: darkred;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.byline {
+  font-family: Bebas Neue;
+  color: darkred;
+  font-weight: lighter;
+  font-size: 30px;
+
+}
+
+.tdpad {
+  padding: 45px;
+}
+
+article > p {
+  font-family:Archivo;
+  font-size: 20px;
+}
+
+.story_image {
+  width: 100%;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.caption {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px
+}
+
+h1 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+  font-family: Bebas Neue;
+  font-weight: italic;
+  color: navy;
+}
+
+p {
+  font-size: 20px;
+  font-family: Archivo;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.source {
+  font-family: Archivo; 
+  font-size: 10px;
+}
+
+.pquote {
+    float: left;
+    width: 100px;
+    background: #ddf;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: Bebas Neue;
+}
+
+
+.otherimg {
+  max-width: 50rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
